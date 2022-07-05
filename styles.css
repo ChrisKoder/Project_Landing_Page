@@ -22,6 +22,15 @@ body {
     
 }
 
+.hero-section {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #1f2937;
+    padding: 25px;
+    
+}
+
+
 .hero-text {
     background-color: #1f2937;
     color: #f9faf8;
@@ -42,11 +51,7 @@ body {
 }
 
 
-.hero-section {
-    display: flex;
-    flex-flow: column wrap;
-    background-color: #1f2937;
-}
+
 
 .hero-paragraph {
     display: flex;
@@ -80,6 +85,20 @@ body {
     color: #E5E7EB;
     background-color: grey;
 }
+
+.square {
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.square-one-text {
+    display: flex;
+    gap: 50px;
+}
+
+
 
 a {
     text-decoration: none;
