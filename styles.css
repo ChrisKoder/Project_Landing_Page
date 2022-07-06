@@ -30,25 +30,31 @@ body {
 }
 /* end of header area */
 
+/* hero area */
 .hero-section {
     display: flex;
     background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
-
 .hero-container {
     display: flex;
     flex-flow: column nowrap;
+    padding: 25px;
 }
-
 .hero-title {
     color: #f9faf8;
     font-size: 48px;
+    display: flex;
+    width: 350px;
 }
-
 .hero-subtext {
     color: #e5e7eb;
+    display: flex;
+    width: 500px;
+    font-size: 18px;
 }
-
 .hero-image {
     display: flex;
     flex: 0 1 auto;
@@ -60,6 +66,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+.hero-button {
+    display: flex;
+    flex-shrink: none;
+    width: 60px;
+}
+
+/* end of hero area */
 
 
 
