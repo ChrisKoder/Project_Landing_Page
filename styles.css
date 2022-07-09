@@ -6,6 +6,10 @@ body {
     justify-content: center;
 }
 
+.header-hero-total {
+    background-color: #1F2937;
+}
+
 /* header area */
 .header-section {
     display: flex;
@@ -74,7 +78,25 @@ body {
 
 /* end of hero area */
 
+/* random area */
 
+.random-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.random-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.random-square {
+    font-size: 18px;
+
+}
 
 
 
