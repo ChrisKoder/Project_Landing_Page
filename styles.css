@@ -8,6 +8,7 @@ body {
 
 .header-hero-total {
     background-color: #1F2937;
+    
 }
 
 /* header area */
@@ -17,7 +18,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     padding: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
    
 }
 .header-logo {
@@ -82,9 +83,10 @@ body {
 
 .random-section {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     align-items: center;
     padding: 30px;
+    margin-bottom: 100px;
 }
 
 .random-header {
@@ -93,8 +95,27 @@ body {
     color: #1F2937;
 }
 
+.random-square-section {
+    display: flex;
+}
+
 .random-square {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    
+    flex: 0 0 auto;
+    border: blue solid;
+    border-radius: 15px;
+}
+
+.random-square-info {
     font-size: 18px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+    
+   
 
 }
 
