@@ -190,3 +190,48 @@ ul {
     display: flex;
     justify-content: flex-end;
 }
+
+.action {
+    background-color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    height: 120px;
+    width: 900px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.text .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 15px;
+}
+
+
+.call-to-action .action-button {
+    display: flex;
+    flex-shrink: none;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
