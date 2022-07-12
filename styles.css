@@ -67,6 +67,7 @@ ul {
     display: flex;
     margin-top: 100px;
     margin-bottom: 100px;
+    gap: 15px;
 }
 
 .header-text {
@@ -111,4 +112,49 @@ ul {
 .container p {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.section {
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.boxes-total {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container .section-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.container .boxes {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+
+.boxes .empty-box {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.boxes p {
+    color: #4e4e4e;
+    font-size: 15px;
+    width: 145px;
+    text-align: center;
 }
